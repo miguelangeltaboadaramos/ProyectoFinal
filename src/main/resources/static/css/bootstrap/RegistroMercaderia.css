@@ -10,10 +10,11 @@
               margin-top: 20px;
 
         }
-        h2, h3 {
+        h2 {
             text-align: center;
             color: #343a40;
             font-weight: bold;
+            font-family:Lucida Bright;
         }
         .form-group {
             margin-bottom: 20px;
@@ -23,6 +24,7 @@
             display: block;
             color: #495057;
             margin-bottom: 5px;
+            font-size:20px;
         }
         input {
             width: 100%;
