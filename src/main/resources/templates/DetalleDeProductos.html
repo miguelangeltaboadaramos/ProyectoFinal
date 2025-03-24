@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="layout::head" >
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1 th:replace="layout::titulo"></h1>
+<div th:replace="layout::menu"></div>
+<div class="container-producto">
+  <h2>DETALLE DE TODOS LOS PRODUCTO</h2>
+
+  <div class="buscador">
+    <input type="text" placeholder="Buscar producto...">
+    <div class="buscador-botones">
+      <button>Buscar</button>
+      <button>Eliminar</button>
+      <button>Limpiar</button>
+    </div>
+  </div>
+
+
+  <div class="tabla-container">
+    <table class="tabla-productos">
+      <thead>
+      <tr>
+        <th>Codigo</th>
+        <th>Nombre del Producto</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+        <th>Proveedor</th>
+        <th>Teléfono</th>
+        <th>Correo Electrónico</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>001</td>
+        <td>Ropero</td>
+        <td>10</td>
+        <td>$100</td>
+        <td>Proveedor X</td>
+        <td>123456789</td>
+        <td>correo@ejemplo.com</td>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Ropero</td>
+        <td>10</td>
+        <td>$100</td>
+        <td>Proveedor X</td>
+        <td>123456789</td>
+        <td>correo@ejemplo.com</td>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Ropero</td>
+        <td>10</td>
+        <td>$100</td>
+        <td>Proveedor X</td>
+        <td>123456789</td>
+        <td>correo@ejemplo.com</td>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Ropero</td>
+        <td>10</td>
+        <td>$100</td>
+        <td>Proveedor X</td>
+        <td>123456789</td>
+        <td>correo@ejemplo.com</td>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Ropero</td>
+        <td>10</td>
+        <td>$100</td>
+        <td>Proveedor X</td>
+        <td>123456789</td>
+        <td>correo@ejemplo.com</td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+</div>
+
+</body>
+</html>
